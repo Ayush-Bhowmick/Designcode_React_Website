@@ -50,4 +50,8 @@
     .Header a:nth-child(4) {
         display:none;
     }
+
+    .HeaderScrolled {
+        background: rgba(0,0,0,0.8);
+    }
 }
