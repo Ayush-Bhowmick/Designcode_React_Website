@@ -112,4 +112,5 @@ a{
   .Hero .Logos {
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} 
+
