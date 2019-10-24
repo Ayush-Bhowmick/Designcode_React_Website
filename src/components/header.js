@@ -2,8 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './Header.css'
 
-
-class Header extends React.components {
+class Header extends React.Component {
   constructor(props) {
     super(props)
 
@@ -20,10 +19,9 @@ class Header extends React.components {
     const scrollTop = window.pageYOffset
 
     if (scrollTop > 50) {
-      this.setState({hasScrolled: true})
-    }
-    else {
-      this.setState({hasScrolled: false})
+      this.setState({ hasScrolled: true })
+    } else {
+      this.setState({ hasScrolled: false })
     }
   }
 
