@@ -7,12 +7,12 @@ class Header extends React.Component {
     super(props)
 
     this.state = {
-      hasScrolled: false
+      hasScrolled: false  // initial state
     }
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener('scroll', this.handleScroll)  // if window is scrolled, the function handleScroll() is called
   }
 
   handleScroll = (event) => {
@@ -26,8 +26,8 @@ class Header extends React.Component {
   }
 
   render() {
-    return (
-      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+    return (     // NOTE: the className="Header" is replaced with a condition to set its name
+      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>  
         <div className="HeaderGroup">
           <Link to="/"><img src={require('../images/logo-designcode.svg')} width="30" /></Link>
           <Link to="/courses">Courses</Link>

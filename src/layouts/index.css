@@ -116,27 +116,27 @@ a {
   text-align: center;
   font-weight: 700;
   background: linear-gradient(104deg, #050A27 0%, #4A5A8C 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  /* to make sure the gradient is applied to the text not the h2 background itself */
+  -webkit-text-fill-color: transparent; /* to make sure the gradient is applied to the text not the h2 background itself */
 
 }
 
 .CardGroup {
-  margin: 50px 40px 100px;
+  margin: 50px 40px 100px; /* no bottom margin */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);  /* 3 columns */
   grid-gap: 40px;
-  justify-items: center;
+  justify-items: center;  /* to align card in the middle */
 }
 
 @media (max-width: 1060px) {
   .CardGroup {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
   }
 }
 
 @media (max-width: 720px) {
   .CardGroup {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr); /* 1 columns */
   }
 }
