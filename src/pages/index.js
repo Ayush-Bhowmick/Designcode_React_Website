@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import Card from '../components/Card'
 import Section from '../components/Section'
 import Wave from '../components/Wave'
+import staticdata from '../../staticdata.json'
+import Cell from '../components/Cell'
 
 
 const IndexPage = () => (
@@ -38,18 +40,18 @@ const IndexPage = () => (
           />
           <Card
             title="React for Designers"
-            text="12 sections"
-            image={require('../images/wallpaper.jpg')}
+            text="10 sections"
+            image={require('../images/wallpaper2.jpg')}
           />
           <Card
             title="Sound Design"
-            text="12 sections"
-            image={require('../images/wallpaper.jpg')}
+            text="5 sections"
+            image={require('../images/wallpaper3.jpg')}
           />
           <Card
             title="ARKit 2"
-            text="12 sections"
-            image={require('../images/wallpaper.jpg')}
+            text="10 sections"
+            image={require('../images/wallpaper4.jpg')}
           />
         </div>
         </div>
@@ -60,7 +62,11 @@ const IndexPage = () => (
     text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
   />
      
-     
+    {staticdata.cells.map(cell => (
+          <Cell 
+            title={cell.title}
+            image={cell.image} />
+    ) )} 
 </div>
 )
 

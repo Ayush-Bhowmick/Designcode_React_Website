@@ -2,10 +2,10 @@
     width:300px;
     height: 225px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden;   /* to use the card layer as mask */
     border-radius: 20px;
-    box-shadow: 0 2opx 40px rgba(0,0,0, 0.25);
-    display: grid;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.25);
+    display: grid;   /* To divide Card into 2 Top and Bottom Layer */
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -16,15 +16,15 @@
 }
 
 .Card img {
-    position: absolute;
+    position: absolute;   /* absolute to relative Card Layer */
     top:0;
     height: 110%;
-    z-index: -1;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: -1;  /* Behind Card Layer which is used as Mask */
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); /* For Natural Prallax */
 }
 
 .Card:hover img {
-    transform: translateY(-20px);
+    transform: translateY(-20px); /* For Parallax */
 
 }
 
@@ -32,7 +32,7 @@
     color: white;
     font-size: 30px;
     margin: 20px 0 0 20px;
-    width: 190px;
+    width: 190px;  /* To prevent h3 from going too far */
 
 }
 
@@ -41,7 +41,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
-    align-self: end;
+    align-self: end;  /* To align to end of card */
     margin: 0 0 20px 20px;
 }
 
