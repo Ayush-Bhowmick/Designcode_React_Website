@@ -15,6 +15,7 @@ const CellImage = styled.div`
     border-radius: 10px;
     background-image: url(${props => props.image});
     background-size: 60px;
+    
 `
 
 const CellTitle = styled.div`
@@ -24,9 +25,9 @@ const CellTitle = styled.div`
 `
 
 
-const Cell = props => (
+const Cell = props => (                 /* NOTE: CellImage instead of div className="CellImage" */
     <CellGroup>
-        <CellImage> image={props.image}</CellImage>
+        <CellImage image={props.image}></CellImage>
         <CellTitle>{props.title}</CellTitle>
     </CellGroup>
 )

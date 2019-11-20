@@ -2,51 +2,51 @@
     "cells": [
         {
             "title": "Intro to React",
-            "image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+            "image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
         },
 		{
 			"title": "Basic Styling in CSS",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Adaptive Layout with CSS Grid",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Interactions and Animations",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "SVG Animation",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Components and Props",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "States and Events",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Styled Components",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Static Data with JSON",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "GraphQL with Contentful",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Publish to Netlify",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		},
 		{
 			"title": "Payment with Stripe Checkout",
-			"image": "https://www.dropbox.com/s/urre0xcm0lifjc9/logo-react-small.png?dl=0"
+			"image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
 		}
     ]
 }
